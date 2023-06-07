@@ -9,7 +9,7 @@ Is your organization keen to adopt containerization, but the complexity associat
 
 ## What you will learn
 
-The session will begin with Sean O’Dell providing an overview of why organizations are adopting containers and the challenges faced due to the complexity of the cloud native ecosystem.
+The session will begin with an overview of why organizations are adopting containers and the challenges faced due to the complexity of the cloud native ecosystem.
 
 Adolfo Delorenzo will demonstrate key capabilities in Portainer that organizations leverage to deploy, secure, and manage Kubernetes and Docker environments with ease.
 
