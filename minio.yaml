@@ -33,17 +33,32 @@ spec:
       containers:
       - name: minio
         image: minio/minio:latest
+        command:
+          - /bin/bash
+          - -c
         args:
-        - server
-        - /storage
+           - minio server /storage --console-address :9090
         env:
         - name: MINIO_ACCESS_KEY
           value: "minio"
         - name: MINIO_SECRET_KEY
           value: "portainer1234"
-        ports:
-        - containerPort: 9000
-          hostPort: 9000
         volumeMounts:
         - name: storage
           mountPath: "/storage"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: minio-svc
+spec:
+  type: NodePort
+  selector:
+    app: minio
+  ports:
+  - port: 9000
+    targetPort: 9000
+    name: s3
+  - port: 9090
+    targetPort: 9090
+    name: console
