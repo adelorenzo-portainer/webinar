@@ -1,1 +1,1 @@
-# Canonical / Portainer webinar
+# Kubernetes Adoption: Making the Hard Easy
