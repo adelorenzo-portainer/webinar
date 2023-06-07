@@ -40,7 +40,7 @@ spec:
         - name: MINIO_ACCESS_KEY
           value: "minio"
         - name: MINIO_SECRET_KEY
-          value: "minio1234"
+          value: "portainer1234"
         ports:
         - containerPort: 9000
           hostPort: 9000
