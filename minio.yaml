@@ -42,7 +42,7 @@ spec:
         - name: MINIO_ACCESS_KEY
           value: "minio"
         - name: MINIO_SECRET_KEY
-          value: "webinar1234"
+          value: "1234webinar"
         volumeMounts:
         - name: storage
           mountPath: "/storage"
