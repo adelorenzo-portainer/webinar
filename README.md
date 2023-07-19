@@ -1,4 +1,4 @@
-# Kubernetes Adoption: Making the Hard Easy - June 2023
+# Kubernetes Adoption: Making the Hard Easy - June/July 2023
 
 Is your organization keen to adopt containerization, but the complexity associated with Kubernetes makes you hesitate? If you’re tackling any of these challenges, this webinar is for you:
 
