@@ -42,7 +42,7 @@ spec:
         - name: MINIO_ACCESS_KEY
           value: "minio"
         - name: MINIO_SECRET_KEY
-          value: "devops1234"
+          value: "password1234"
         volumeMounts:
         - name: storage
           mountPath: "/storage"
