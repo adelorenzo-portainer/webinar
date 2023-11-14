@@ -1,18 +1,19 @@
-# Kubernetes Adoption: Making the Hard Easy - June/July 2023
+# GitOps and Automation Made Easy - Nov 2023
 
-Is your organization keen to adopt containerization, but the complexity associated with Kubernetes makes you hesitate? If you’re tackling any of these challenges, this webinar is for you:
+## How to Automate App Deployment using Portainer and Git
 
-- Unlock the skills necessary to realize the power of containerized applications on any platform at scale
-- Accelerate container adoption with centralized troubleshooting and management capabilities
-
-    “We are easily 10-15% more productive because we can get an additional 2 stories done per two-week sprint with Portainer.” -  _Matt Wolfe,  Manager of Software Engineering @ Caresyntax_
+Automation (CI/CD) is key to efficient software delivery, but it can be tricky to get going. Portainer’s GitOps integration is the perfect place to start.
 
 ## What you will learn
 
-The session will begin with an overview of why organizations are adopting containers and the challenges faced due to the complexity of the cloud native ecosystem.
+You'll learn how to use Portainer (integrated into Git) to automate the deployment of apps as part of your DevOps workflow, regardless of the containerized platform or environment you’re using.
 
-Adolfo Delorenzo will demonstrate key capabilities in Portainer that organizations leverage to deploy, secure, and manage Kubernetes and Docker environments with ease.
+Discover how to trigger deployment updates of your apps to Docker and Kubernetes, from a Git repo via either push (your CI system tells Portainer there are changes) or pull (Portainer checks for the latest image).
 
-- How to deploy applications on Kubernetes using Portainer
-- How to monitor and manage applications running on Kubernetes using Portainer
-- How to ensure security and compliance in Kubernetes environments with Portainer's built-in features
+In the first 10 minutes of the session Sean O’Dell, Head of Developer Relations and Marketing will provide a basic understanding of Portainer and the many benefits of GitOps automation.
+
+In the next 45 minutes, Adolfo Delorenzo, Sales Engineering Manager, will demo some of the GitOps features within Portainer, including:
+- Deploying applications with Kubernetes YAML manifest (polling and push via webhooks)
+- Deploying applications with Docker Compose
+- Other uses of the Git Integration
+- Policy enforcement – to automatically keep apps in sync with Git.
