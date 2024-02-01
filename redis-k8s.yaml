@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: master
-        image: registry.k8s.io/redis
+        image: registry.portainer.live/redis
         ports:
         - containerPort: 6388
