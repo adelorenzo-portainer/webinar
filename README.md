@@ -1,4 +1,4 @@
-# GitOps and Automation Made Easy - Nov 2023
+# DevSecOps - 2024
 
 ## How to Automate App Deployment using Portainer and Git
 
