@@ -20,4 +20,4 @@ spec:
       - name: master
         image: registry.k8s.io/redis
         ports:
-        - containerPort: 6388
+        - containerPort: 6379
