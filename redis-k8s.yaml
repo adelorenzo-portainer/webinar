@@ -8,7 +8,7 @@ spec:
       app: redis
       role: master
       tier: backend
-  replicas: 12
+  replicas: 8
   template:
     metadata:
       labels:
@@ -20,4 +20,4 @@ spec:
       - name: master
         image: registry.k8s.io/redis
         ports:
-        - containerPort: 6382
+        - containerPort: 6379
