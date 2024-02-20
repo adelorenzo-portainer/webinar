@@ -8,7 +8,7 @@ spec:
       app: redis
       role: master
       tier: backend
-  replicas: 16
+  replicas: 12
   template:
     metadata:
       labels:
