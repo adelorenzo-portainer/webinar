@@ -1,17 +1,10 @@
-# DevSecOps - 2024
+# Kubernetes Access Control and Governance Made Easy
 
-## What you will learn
+## How to secure your Kubernetes/Docker Environment with RBAC User Management
 
-Learn how Portainer simplifies the adoption of software containers while incorporating the critical elements of DevSecOps at the same time. Our host and speakers will spend a few minutes outlining the value of DevSecOps, followed by a demonstration of the capabilities outlined below.
+In this session, we will show you how to manage Kubernetes RBAC, easily with Portainer. You will learn about:
 
-    SecOps
-        Secure and open up your container environment to others with RBAC
-            AirGap applications and environments
-            Policy Based management
-            Asynchronous communications
-            Including low bandwidth scenarios
-            Logging and audit capabilities
-    GitOps
-        Seamless integration and direct updates from Git
-    DevOps
-        Integrate and automate cluster and user management regardless of the container platform
+    - Portainer RBAC model
+    - Access, Resources, and Deployment
+    - Integration with Authentication backends
+    - Logging & Auditing
