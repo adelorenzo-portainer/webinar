@@ -62,3 +62,13 @@ spec:
   - port: 9090
     targetPort: 9090
     name: console
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: minio-ingress
+spec:
+  ports:
+    - protocol: TCP
+      port: 9090
+      targetPort: 9090
