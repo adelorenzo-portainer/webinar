@@ -44,9 +44,9 @@ spec:
         - name: MINIO_SECRET_KEY
           value: "portainer1234"
         - name: MINIO_BROWSER_REDIRECT_URL
-          value: http://137.184.240.153.nip.io/console
+          value: http://137.184.240.153.nip.io/minio/ui
         - name: MINIO_SERVER_URL
-          value: http://137.184.240.153.nip.io
+          value: http://minio.137.184.240.153.nip.io
         volumeMounts:
         - name: storage
           mountPath: "/storage"
