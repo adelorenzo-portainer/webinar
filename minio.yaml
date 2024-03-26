@@ -42,7 +42,7 @@ spec:
         - name: MINIO_ACCESS_KEY
           value: minio
         - name: MINIO_SECRET_KEY
-          value: portainer1234
+          value: minio1234
 #        - name: MINIO_BROWSER_REDIRECT_URL
 #          value: http://137.184.240.153.nip.io/minio/ui
 #        - name: MINIO_SERVER_URL
